@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from app.models import Movietop
-import uvicorn
 
 app = FastAPI()
 
